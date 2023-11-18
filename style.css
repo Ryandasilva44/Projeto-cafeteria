@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* menu de hamburguer */
+  
+  .menu-hamburguer{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -35px;
+      
+  }
+  
+  .icone-menu{
+      text-decoration: none;
+      color: #000;
+  }
+  
+  
+  .menu-list a{
+      text-decoration: none;
+      list-style-type: none;
+      color: #fff;
+  }
+  
+  .menu-list{
+     border-radius: 10px;
+     width: 300px;
+     height: 500px;
+     text-align: center;
+     background-color: #000;
+     display: none;
+     position: fixed;
+     opacity: 1;
+     z-index: 1;
+     
+  }
+
+/* imagem-pricipal */
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+
+/*-------------------*/
+
+
+
+.fundo-cinza{
+    width: 100%;
+    height: 500px;
+    margin-top: -390px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+.btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 500;
+    border-color: whitesmoke;
+    
+}
+
+/* media do cabecalho e da imagem e de um texto */
+
+@media screen and (min-width: 769px ){
+    
+    #menu-burguer{
+        font-size: 1.6em;
+        
+    }
+    
+    .logo{
+        margin-bottom: 0.5em;
+    }
+    
+    .fundo-cinza{
+        font-size: 2vh;
+        margin-top: -19em;
+        margin-bottom: 10em;
+    }
+    
+    .btn{
+        width: 10em;
+        height: 2em;
+        border-radius: 2rem;
+        font-size: 1em;
+    }
+    
+    .cafe-maos{
+        position: relative;
+    }
+    
+    .column-container{
+        position: absolute;
+        margin-top: -20em;
+        margin-left: 6em;
+        column-count: 2;
+        column-gap: 1.6em;
+        padding: 1.5em;
+    }
+    
+    .cafe-003{
+        margin-top: -20em;
+        margin-bottom: -1em;
+    }
+    
+    
+    .group-001{
+        margin-left: 30em;
+        margin-top: -1em;
+        
+    }
+    
+    h3{
+        text-align: center;
+    }
+    
+    
+    .column-container-01{
+        margin-left: 4em;
+        column-count: 2;
+        column-gap: 1.6em;
+        padding: 1.5em;
+        
+    }
+    
+    
+    .item-01{
+        margin-left: 30em;
+    }
+    
+    #img-050{
+        margin-top: -40em;
+        width: 25em;
+        height: 30em;
+        margin-left: -5em;
+    
+    }
+    
+    #img-051{
+        width: 16em;
+        height: 20em;
+    }
+    
+    #img-052{
+        width: 16em;
+        height: 20em;
+        margin-left: -10em;
+    }
+    
+    
+    #title-101{
+        font-size: 1rem;
+        margin-left: 30rem;
+        width: 26em;
+        height: 20rem;
+        padding: 10px;
+    }
+    
+    
+    #btn-022{
+     margin-top: 1em;
+     animation: fadeInLeft 3s ease-in-out;
+    }
+    
+    @keyframes fadeInLeft{
+        
+        0%{
+            opacity: 0;
+            transform: translateX(600px);
+        }
+        
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    /*the gallery of photos */
+    
+    .column-container-02{
+        column-count: 2;
+        column-gap: 1em;
+        padding: 1rem;
+    }
+    
+    
+    #btn-view{
+        margin-left: 16rem;
+        width: 16em;
+        height: 6rem;
+        font-size: 2rem;
+        border-radius: 3rem;
+    }
+    
+    /*uma secao com animacao e 2 elementos */
+    
+    
+    #retangulo-01{
+        margin-left: 50rem;
+        width: 7rem;
+        height: 23rem;
+    }
+    
+    #img-030{
+        margin-left: 35rem;
+        width: 20rem;
+        height: 18rem;
+        animation: fadeInLeftAnimation 4s ease-in-out;
+    }
+    
+    @keyframes fadeInLeftAnimation{
+        
+        0%{
+            opacity: 0;
+            transform: translateX(600px);
+        }
+        
+        80%{
+            opacity: 0.6;
+        }
+        
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+    }
+    
+    #group-paragrapho{
+        margin-left: 5em;
+        width: 30em;
+        height: 16em;
+        line-height: 3.5;
+        font-size: 1.5em;
+    }
+    
+    #img-homem-01{
+        margin: 5rem;
+    }
+    
+    form{
+        font-size: 3em;
+        text-align: center;
+    }
+    input{
+        font-size: 0.8em;
+        margin: 1em;
+    }
+    
+    textarea{
+        margin-top: 1em;
+    }
+    
+    #btn-submit{
+        width: 18em;
+        height: 3em;
+        font-size: 0.5em;
+    }
+
+    
+    
+    
+    
+    
+}
+
+/*---------------------*/
+
+ /* title 1 */
+ 
+ h1#title-01{
+     text-align: center;
+     margin-top: -85px;
+     margin-bottom: 20px;
+ }
+ 
+ 
+ /* secoes com paragrafos */
+ 
+ p.paragrafo-01{
+     text-align: center;
+     line-height: 1.2;
+     font-weight: 300;
+     margin-bottom: 20px;
+     margin-top: 50px;
+     animation: zoomInAnimation 4s ease-in-out;
+     animation-delay: 1s;
+ }
+ 
+/* keyframes usado no paragrafo-01 */
+ 
+ @keyframes zoomInAnimation{
+     0%{
+         transform: scale(0);
+     }
+     
+     50%{
+         transform: scale(1.2);
+     }
+     
+     100%{
+         transform: scale(1);
+     }
+     
+ }
+ 
+ /* paragrafo-02 usando keyframes nela tambem */
+ 
+ p.paragrafo-02{
+     border-radius: 20px;
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 35px;
+     font-weight: 500;
+     line-height: 1.8;
+     background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+     box-shadow: 2px 4px 6px 0px slategray;
+     animation: fadeInLeftAnimation 4s ease-in-out;
+     
+      }
+      
+    @keyframes fadeInLeftAnimation{
+        0%{
+            opacity: 0;
+            transform: translateX(-650px);
+        }
+        
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+      
+      
+
+p.paragrafo-03{
+     border-radius: 20px;
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 35px;
+     font-weight: 500;
+     line-height: 2;
+     background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+     box-shadow: 2px 4px 6px 0px slategray;
+     animation: fadeInRigthAnimation 4s ease-in-out;
+      }
+      
+      
+ @keyframes fadeInRigthAnimation{
+     
+     0%{
+         opacity: 0;
+         transform: translateX(650px);
+     }
+     
+     100%{
+         opacity: 1;
+         transform: translateX(0);
+         
+     }
+ }
+      
+     p.paragrafo-04{
+     text-align: center;
+     line-height: 1.2;
+     font-weight: 300;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     animation: fadeInAnimation 3s ease-in-out;
+ }
+ 
+ @keyframes fadeInAnimation{
+     0%{
+         opacity: 0;
+         transform: scaleY(0);
+     }
+     
+     100%{
+         opacity: 1;
+         transform: scaleY(1);
+     }
+ }
+ 
+ 
+ /*imagem abaixo dos 4 paragrafos  e usando keyframes em fez de biblioteca*/
+ 
+ .imagem-01{
+     margin-top: 20px;
+     margin-bottom: 20px;
+     animation: fadeInBottomRight 3s ease-in-out;
+     
+ }
+ 
+ 
+ @keyframes fadeInBottomRight{
+     0%{
+         opacity: 0;
+         transform: translateX(600px);
+     }
+     
+     
+     100%{
+         opacity: 1;
+         transform: translateX(0);
+     }
+ }
+ 
+ /*agora estilizar 4 box */
+ 
+ 
+.column-container{
+    position: absolute;
+    margin-top: -30px;
+}
+ 
+ .box-01{
+     border-radius: 20px;
+     width: 350px;
+     height: 250px;
+     margin-left: 18px;
+     margin-bottom: 80px;
+     text-align: center;
+     line-height: 1.8;
+     background: #ffffff;
+     box-shadow: 3px 6px 8px 0px #000;
+     animation: fadeInUpBigAnimation 6s ease-in-out;
+     
+     
+    
+ }
+ 
+.box-02{
+     border-radius: 20px;
+     width: 350px;
+     height: 250px;
+     margin-top: -50px;
+     margin-left: 18px;
+     margin-bottom: 80px;
+     text-align: center;
+     line-height: 1.8;
+     background: #ffffff;
+     box-shadow: 3px 6px 8px 0px #000;
+     animation: fadeInUpBigAnimation 8s ease-in-out;
+     
+     
+}
+ 
+.box-03{
+     border-radius: 20px;
+     width: 350px;
+     height: 250px;
+     margin-top: -50px;
+     margin-left: 18px;
+     margin-bottom: 80px;
+     text-align: center;
+     line-height: 1.8;
+     background: #ffffff;
+     box-shadow: 3px 6px 8px 0px #000;
+    animation: fadeInUpBigAnimation 9s ease-in-out;
+}
+ 
+.box-04{
+     border-radius: 20px;
+     width: 350px;
+     height: 250px;
+     margin-top: -50px;
+     margin-left: 18px;
+     margin-bottom: 80px;
+     text-align: center;
+     line-height: 1.8;
+     background: #ffffff;
+     box-shadow: 3px 6px 8px 0px #000;
+     animation: fadeInUpBigAnimation 12s ease-in-out;
+}
+
+  .cafe-02{
+      position: relative;
+  }
+
+ .group{
+     position: absolute;
+     margin-top: -50px;
+     margin-bottom: 200px;
+     
+ }
+ 
+ 
+ .numbers{
+     margin-left: -290px;
+     font-weight: 900;
+     color: #f4a460;
+     font-size: 1.4rem;
+ }
+
+ .group-01{
+     margin-top: 1100px;
+ }
+ 
+ 
+ @keyframes fadeInUpBigAnimation{
+     
+     0%{
+         opacity: 0;
+         transform: scaleY(0);
+     }
+     
+     100%{
+         opacity: 1;
+         transform: scaleY(1);
+     }
+ }
+ 
+ 
+ /* estilizando a classe group-01 */
+ 
+ 
+ .cafe-03{
+     position: relative;
+     
+    
+     
+ }
+ 
+ /* 1 imagem estilizada  ice*/
+ 
+ .ice-cream{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 270px;
+    animation: zoomIn 6s ease-in-out;
+    opacity: 0.5;
+     
+ }
+
+
+  
+  /* 2 imagem estilizada fruit*/
+ 
+ .fruit-01{
+     position: absolute;
+     width: 76px;
+     height: 70px;
+     margin-top: -200px;
+     margin-left: 270px;
+     animation: zoomIn 6s ease-in-out;
+     opacity: 0.5;
+ }
+ 
+ /*3 imagem estilizada chip */
+ 
+  .chip-01{
+     position: absolute;
+     width: 76px;
+     height: 86px;
+     margin-top: -100px;
+     margin-left: 270px;
+     animation: zoomIn 6s ease-in-out;
+     opacity: 0.5;
+ }
+ 
+ 
+ /* 4 imagem estilizada sundae */
+ 
+ 
+ .sundae-01{
+     position: absolute;
+     width: 60px;
+     height: 60px;
+     margin-top: -270px;
+     margin-left: 180px;
+     animation: zoomIn 6s ease-in-out;
+     opacity: 0.5;
+ }
+ 
+ /* 5 imagem estilizada smothies */
+ 
+ .smothies-01{
+     position: absolute;
+     width: 60px;
+     height: 40px;
+     margin-top: -160px;
+     margin-left: 180px;
+     animation: zoomIn 6s ease-in-out;
+     opacity: 0.5;
+ }
+ 
+ /* usando keyframes para animar essas 5 imagens acima */
+ 
+ @keyframes zoomIn{
+     from{
+         opacity: 0;
+         transform: scale3d(0.3, 0.3, 0.3);
+     }
+     
+     50%{
+         opacity: 1;
+     }
+     
+     to{
+         transform: scale3d(1, 1, 1);
+         
+     }
+     
+ }
+ 
+ /* outro titulo de outra secao */
+ .cor-de-fundo{
+     background-color: #c5b46c;
+     margin-top: -10px;
+ }
+ 
+ h3{
+     font-weight: 600;
+     text-align: center;
+     color: #fff;
+     
+ }
+ 
+ /* imagem 1 */
+ 
+ .imagem-torta{
+     border-radius: 20px;
+     width: 300px;
+     margin-left: 40px;
+     text-align: center;
+     padding: 30px;
+     background: #fff;
+     margin-bottom: 25px;
+    
+     
+ }
+ 
+ .img-30{
+     border-radius: 20px;
+ }
+ 
+ 
+ .p-3{
+     font-weight: 750;
+     margin-left: -80px;
+     color: #c5b46c;
+    
+ }
+ 
+ .p-4{
+     text-align: center;
+     margin-bottom: 16px;
+     font-weight: 500;
+ }
+ 
+ 
+ .price-01{
+     font-weight: 750;
+     margin-left: -80px;
+     color: #c5b46c;
+     text-align: center;
+     padding-inline: 60px;
+ }
+ 
+ .button-01{
+     border-radius: 25px;
+     width: 120px;
+     height: 40px;
+     font-weight: 700;
+     background: #c5b46c;
+     color: #fff;
+     border-color: #fff;
+ }
+ 
+ 
+ /* imagem pudim */
+ 
+ 
+ .imagem-pudim{
+     border-radius: 20px;
+     width: 300px;
+     margin-left: 40px;
+     text-align: center;
+     padding: 30px;
+     background: #fff;
+     margin-bottom: 25px;
+     
+ }
+ 
+ 
+ /* imagem de bolo */
+ 
+ .imagem-bolo{
+     border-radius: 20px;
+     width: 300px;
+     margin-left: 40px;
+     text-align: center;
+     padding: 30px;
+     background: #fff;
+     margin-bottom: 25px;
+     
+ }
+ 
+ /* imagem de torta */
+ 
+ .imagem-de-torta{
+     border-radius: 20px;
+     width: 300px;
+     margin-left: 40px;
+     text-align: center;
+     padding: 30px;
+     background: #fff;
+     margin-bottom: 25px;
+     
+     
+ }
+ 
+ 
+ /* imagem de um.bolo de chocolate */
+ 
+ 
+ .imagem-bolo-chocolate{
+     border-radius: 20px;
+     width: 300px;
+     margin-left: 40px;
+     text-align: center;
+     padding: 30px;
+     background: #fff;
+     margin-bottom: 25px;
+     
+     
+     
+ }
+ 
+ 
+ /* imagem de um bolo de laranja */
+ 
+ .imagem-bolo-laranja{
+     border-radius: 20px;
+     width: 300px;
+     margin-left: 40px;
+     text-align: center;
+     padding: 30px;
+     background: #fff;
+     margin-bottom: 50px;
+     
+     
+     
+ }
+ 
+ /* imagem com 2 quadrados,um titulo e um paragrafo */
+ 
+ .secao-22{
+     background-color: #000;
+  }
+ 
+.quadrado-01{
+    border-radius: 20px;
+    background: #c5b46c;
+    width: 140px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: -60px;
+    position: relative;
+}
+
+
+.quadrado-02{
+    border-radius: 20px;
+    background: #c5b46c;
+    width: 140px;
+    height: 150px;
+    margin-top: 3px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    position: relative;
+    
+    
+}
+
+.img-011{
+    border-radius: 20px;
+    width: 190px;
+    height: 160px;
+    margin-left: 120px;
+    margin-top: -300px;
+    position: absolute;
+}
+
+
+.title-paragrapho{
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 48px;
+    margin-bottom: 70px;
+    background: #fff;
+}
+
+
+.title-022{
+    color: #c5b46c;
+    font-weight: 600;
+}
+
+.paragrapho-01{
+    font-weight: 300;
+}
+
+.btn-022{
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    background: transparent;
+    color: #000;
+    border-color: #c5b46c;
+    margin-top: 20px;
+    
+}
+
+
+/* titulo usando h5 */
+
+h5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+
+/* gallery photos */
+
+
+ .gallery-photos{
+     margin: 20px;
+ }
+ 
+ .photo-01, .photo-02, .photo-03, .photo-04, .photo-05, .photo-06{
+     margin-bottom: 10px;
+     border-radius: 20px;
+ }
+ 
+ .photo-01:hover{
+     animation: pulse 3s ease-in-out;
+ }
+ 
+ .photo-02:hover{
+     animation: pulse 3s ease-in-out;
+ }
+ 
+ .photo-03:hover{
+     animation: pulse 3s ease-in-out;
+ }
+ 
+ 
+ .photo-04:hover{
+     animation: pulse 3s ease-in-out;
+ }
+ 
+ .photo-05:hover{
+     animation: pulse 3s ease-in-out;
+ }
+ 
+
+ .photo-06:hover {
+       animation: pulse 3s ease-in-out;
+   }
+   
+   .btn-view{
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    background: transparent;
+    color: #000;
+    border-color: #c5b46c;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    animation: fadeInRigthAnimation 6s ease-in-out;
+    
+    }
+    
+    /* usar o keyframes para fazer animacao no btn-view */
+    @keyframes fadeInRigthAnimation{
+        
+        0%{
+            opacity: 0;
+            transform: translateX(600px);
+        }
+        
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+ /* imagem com uma mao segurando uma xicara de cafe */ 
+ 
+ .img-030{
+     position: absolute;
+     width: 280px;
+     height: 200px;
+     margin-left: 40px;
+     border-radius: 20px;
+     position: absolute;
+     margin-top: 100px;
+     animation: fadeInLeft 4s ease-in-out;
+     z-index: 1;
+     
+ }
+
+.retangulo-01{
+    position: relative;
+    border-radius: 20px;
+    width: 150px;
+    height: 300px;
+    background: #c5b46c;
+    margin-left: 210px;
+    margin-top: 60px;
+    animation: fadeInUp 4s ease-out;
+    
+}
+
+/*keyframes da imagem acima */
+
+
+@keyframes fadeInLeft{
+    
+    0%{
+        opacity: 0;
+        transform: translateX(600px);
+    }
+    80%{
+        opacity: 0.5;
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.group-paragrapho{
+    border-radius: 30px;
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    background-color: #c5b46c;
+    color: #fff;
+    animation: zoomIn 5s ease-in-out;
+}
+
+
+/*keyframes da caixa acima */
+
+  @keyframes zoomIn{
+      
+      0%{
+          opacity: 0;
+          transform: scaleY(0);
+      }
+      
+      
+      
+      100%{
+          opacity: 1;
+          transform: scaleY(1);
+      }
+  }
+
+
+.p-10{
+    font-weight: 400;
+}
+
+.p-11{
+    font-weight: 700;
+}
+
+/* homem da cafeteria */
+
+.img-homem{
+    margin: 30px;
+    margin-bottom: 10px;
+    
+}
+
+/* formulario */
+
+form{
+    text-align: center;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+.btn-submit{
+    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    padding: 2px;
+    border-radius: 40px;
+    border-color: #fff;
+}
+
